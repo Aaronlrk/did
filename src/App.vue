@@ -1,13 +1,13 @@
 <template>
   <div class="main">
     <div class="container row p-0">
-      <div class="col temp">1 {{orderlist[0]}}</div>
-      <div class="col temp">2</div>
-      <div class="col temp">3</div>
-      <div class="col temp">4</div>
-      <div class="col temp">5</div>
-      <div class="col temp">6</div>
-      <div class="col temp">7</div>
+      <div id="1" class="col temp">1 {{orderlist[0]}}</div>
+      <div id="2" class="col temp">2</div>
+      <div id="3" class="col temp">3</div>
+      <div id="4" class="col temp">4</div>
+      <div id="5" class="col temp">5</div>
+      <div id="6" class="col temp">6</div>
+      <div id="7" class="col temp">7</div>
       <div class="col temp">8</div>
     </div>
 
