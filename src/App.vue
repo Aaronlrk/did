@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="container row p-0">
-      <div class="col temp">1</div>
+      <div class="col temp">1 {{orderlist[0]}}</div>
       <div class="col temp">2</div>
       <div class="col temp">3</div>
       <div class="col temp">4</div>
@@ -14,11 +14,14 @@
 </template>
 
 <script>
-
+import orderlist from '../assets/orderlist.json'
 export default {
   name: 'App',
   components: {
   },
+  data: function () { return{
+    orderlist: orderlist
+  }},
   methods: {
 
   }
