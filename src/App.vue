@@ -22,12 +22,12 @@ export default {
   name: 'App',
   components: {
   },
-  data: function () { return{
+  data: function () { 
+    return    {
     orderlist: orderlist,
     sector: "",
   }},
   methods: {
-
   }
 }
 </script>
