@@ -1,0 +1,102 @@
+[
+	{
+		"name": "Belle",
+		"num": 1,
+		"coffee": "Americano"
+	},
+	{
+		"name": "Lucy",
+		"num": 2,
+		"coffee": "Juice"
+	},
+	{
+		"name": "Belle",
+		"num": 3,
+		"coffee": "Americano"
+	},
+	{
+		"name": "Belle",
+		"num": 4,
+		"coffee": "Juice"
+	},
+	{
+		"name": "Kate",
+		"num": 5,
+		"coffee": "Juice"
+	},
+	{
+		"name": "Belle",
+		"num": 6,
+		"coffee": "Latte"
+	},
+	{
+		"name": "Lucy",
+		"num": 7,
+		"coffee": "Water"
+	},
+	{
+		"name": "Sol",
+		"num": 8,
+		"coffee": "Water"
+	},
+	{
+		"name": "Lucy",
+		"num": 9,
+		"coffee": "Americano"
+	},
+	{
+		"name": "Belle",
+		"num": 10,
+		"coffee": "Chocomilk"
+	},
+	{
+		"name": "Sol",
+		"num": 11,
+		"coffee": "Water"
+	},
+	{
+		"name": "Lucy",
+		"num": 12,
+		"coffee": "Chocomilk"
+	},
+	{
+		"name": "Aaron",
+		"num": 13,
+		"coffee": "Water"
+	},
+	{
+		"name": "Aaron",
+		"num": 14,
+		"coffee": "Water"
+	},
+	{
+		"name": "Aaron",
+		"num": 15,
+		"coffee": "Latte"
+	},
+	{
+		"name": "Sol",
+		"num": 16,
+		"coffee": "Water"
+	},
+	{
+		"name": "Kate",
+		"num": 17,
+		"coffee": "Latte"
+	},
+	{
+		"name": "Lucy",
+		"num": 18,
+		"coffee": "Juice"
+	},
+	{
+		"name": "Belle",
+		"num": 19,
+		"coffee": "Juice"
+	},
+	{
+		"name": "Sol",
+		"num": 20,
+		"coffee": "Chocomilk"
+	}
+]
