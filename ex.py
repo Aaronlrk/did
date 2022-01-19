@@ -9,7 +9,7 @@ name = ['Lucy', 'Aaron', 'Kate', 'Belle', 'Sol']
 
 coffee=['Americano', 'Latte', 'Chocomilk', 'Juice', 'Water']
 
-for i in range(1,21):
+for i in range(1,1001):
     temp = { "name" : random.choice(name),
              "num" : i,
              "coffee" : random.choice(coffee)
