@@ -66,48 +66,47 @@
       </div>
   </div>
 
-  <div class="mt-5 d-flex justify-content-around">
+  <div class="mt-5 d-flex justify-content-around " >
     <div>
-      <button class="btn btn-primary" @click="update1">update 1</button>
-      <button class="btn btn-danger" @click="delete1">delete 1</button>
+      <button class="btn btn-primary" style="width:80px;" @click="update1">update 1</button>
+      <button class="btn btn-danger" style="width:80px;" @click="delete1">delete 1</button>
     </div>
 
     <div>
-      <button class="btn btn-primary" @click="update2">update 2</button>
-      <button class="btn btn-danger" @click="delete2">delete 2</button>
+      <button class="btn btn-primary" style="width:80px;" @click="update2">update 2</button>
+      <button class="btn btn-danger" style="width:80px;" @click="delete2">delete 2</button>
     </div>
 
     <div>
-      <button class="btn btn-primary" @click="update3">update 3</button>
-      <button class="btn btn-danger" @click="delete3">delete 3</button>
+      <button class="btn btn-primary" style="width:80px;" @click="update3">update 3</button>
+      <button class="btn btn-danger" style="width:80px;" @click="delete3">delete 3</button>
     </div>
 
     <div>
-      <button class="btn btn-primary" @click="update4">update 4</button>
-      <button class="btn btn-danger" @click="delete4">delete 4</button>
+      <button class="btn btn-primary" style="width:80px;" @click="update4">update 4</button>
+      <button class="btn btn-danger" style="width:80px;" @click="delete4">delete 4</button>
     </div>
 
     <div>
-      <button class="btn btn-primary" @click="update5">update 5</button>
-      <button class="btn btn-danger" @click="delete5">delete 5</button>
+      <button class="btn btn-primary" style="width:80px;" @click="update5">update 5</button>
+      <button class="btn btn-danger" style="width:80px;" @click="delete5">delete 5</button>
     </div>
 
     <div>
-      <button class="btn btn-primary" @click="update6">update 6</button>
-      <button class="btn btn-danger" @click="delete6">delete 6</button>
+      <button class="btn btn-primary" style="width:80px;" @click="update6">update 6</button>
+      <button class="btn btn-danger" style="width:80px;" @click="delete6">delete 6</button>
     </div>
 
     <div>
-      <button class="btn btn-primary" @click="update7">update 7</button>
-      <button class="btn btn-danger" @click="delete7">delete 7</button>
+      <button class="btn btn-primary" style="width:80px;" @click="update7">update 7</button>
+      <button class="btn btn-danger" style="width:80px;" @click="delete7">delete 7</button>
     </div>
   </div>
 
   <div class="button d-flex ">
-    <input type="text" class="btn btn-success text-center" readonly autofocus @keyup.enter="updateorder" value="Press Enter">
+    <input type="text" class="btn btn-success text-center" readonly autofocus @click="updateorder" @keyup.enter="updateorder" value="Press Enter">
     <button class="btn btn-danger" @click="deleteorder">deleteAll</button>
   </div>
-    <!-- <button class="button btn-success" @keyup.enter="updateorder">Click</button> -->
   </div>
 
 </template>
@@ -386,11 +385,26 @@ export default {
   font-family: 'Santana-Black';
   color: black;
   font-weight: bold;
-
   font-size: 1vw;
 
 }
 
+.coffee{
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1vw;
+  font-family: 'Santana-Black', cursive;
+}
+
+.button {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  top: 400px;
+  left: 500px;
+}
+  
 .slidein {
   animation-duration: 1s;
   animation-name: slidein;
@@ -424,22 +438,6 @@ export default {
 
 }
 
-.coffee{
-  color: white;
-  font-weight: bold;
-  display: inline-block;
-  font-size: 1vw;
-  font-family: 'Santana-Black', cursive;
-}
-
-.button {
-  position: absolute;
-  width: 10%;
-  height: 10%;
-  top: 400px;
-  left: 500px;
-}
-
 .fade-in {
   display: inline-block;
   animation: fadein 3s;
@@ -447,6 +445,7 @@ export default {
   -webkit-animation: fadein 3s; /* Safari and Chrome */
   -o-animation: fadein 3s; /* Opera */
 }
+
 @keyframes fadein {
     from {
         opacity:0;
