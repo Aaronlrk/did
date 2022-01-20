@@ -1,13 +1,13 @@
 [
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 1,
 		"coffee": "Juice"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 2,
-		"coffee": "Juice"
+		"coffee": "Cocoa"
 	},
 	{
 		"name": "Aaron",
@@ -490,39 +490,39 @@
 		"coffee": "Juice"
 	},
 	{
-		"name": "Kate",
+		"name": "Hyemin",
 		"num": 99,
-		"coffee": "Latte"
+		"coffee": "JJANG"
 	},
 	{
-		"name": "Belle",
+		"name": "Ryunki",
 		"num": 100,
-		"coffee": "Americano"
+		"coffee": "JJANG"
 	},
 	{
-		"name": "Lucy",
+		"name": "Janghoon",
 		"num": 101,
-		"coffee": "Chocomilk"
+		"coffee": "JJANG"
 	},
 	{
-		"name": "Sol",
+		"name": "Sangjin",
 		"num": 102,
-		"coffee": "Water"
+		"coffee": "JJANG"
 	},
 	{
-		"name": "Sol",
+		"name": "Yoohyun",
 		"num": 103,
-		"coffee": "Americano"
+		"coffee": "JJANG"
 	},
 	{
-		"name": "Aaron",
+		"name": "Changmin",
 		"num": 104,
-		"coffee": "Chocomilk"
+		"coffee": "JJANG"
 	},
 	{
-		"name": "Belle",
+		"name": "15",
 		"num": 105,
-		"coffee": "Latte"
+		"coffee": "Floor"
 	},
 	{
 		"name": "Lucy",
