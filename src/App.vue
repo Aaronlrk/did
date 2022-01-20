@@ -2,7 +2,7 @@
   <div class="main">
     <!-- 전체 가로 -->
     <div class="container row p-0">
-<!-- 각각의 id는 sector를 의미한다 -->
+    <!-- 각각의 id는 sector를 의미한다 -->
       <div id=1 class="col temp d-flex">
         <div id="ordernums" class="ordnums col-3 "></div>
         <div class="mt-1 text-center col">
