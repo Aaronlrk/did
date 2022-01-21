@@ -202,11 +202,14 @@ export default {
 
         if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
 
+          el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+          
           if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice')
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
           } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot')
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
           }
+
 
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
@@ -221,19 +224,22 @@ export default {
       el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
       el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-  this.sector = 1
+      this.sector = 1
       this.now +=1
+
       el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
       el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
       el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
       } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+        if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
+          } else if (this.temper == 'Hot') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
+          }
+
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
@@ -255,10 +261,16 @@ export default {
       el.childNodes[0].classList.add('fadeinnum')
       el2.childNodes[0].classList.remove('fadeinnum')
       el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+      
       } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+        if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
+          } else if (this.temper == 'Hot') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
+          }
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
@@ -274,18 +286,20 @@ export default {
         this.sector = 1
       this.now +=1
       el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
       el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
       el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+
       } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+        if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
+          } else if (this.temper == 'Hot') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
+          }
 
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
@@ -308,9 +322,15 @@ export default {
       el.childNodes[0].classList.add('fadeinnum')
       el2.childNodes[0].classList.remove('fadeinnum')
       el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+
         
       } else {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+        if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
+          } else if (this.temper == 'Hot') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
+          }
      
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
@@ -329,7 +349,7 @@ export default {
       el.childNodes[0].classList.add('fadeinnum')
       el2.childNodes[0].classList.remove('fadeinnum')
       el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+
       }
 
       } else {
@@ -347,10 +367,11 @@ export default {
 
         if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
 
-           if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice')
+          el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+          if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
           } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot')
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
           }
       this.now +=1
 
@@ -374,7 +395,6 @@ export default {
       el.childNodes[0].classList.add('fadeinnum')
       el2.childNodes[0].classList.remove('fadeinnum')
       el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
       if (this.sector > 6) {
         this.sector = 0
       }
@@ -382,6 +402,12 @@ export default {
       } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+          if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
+          } else if (this.temper == 'Hot') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
+          }
       this.now +=1
 
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
@@ -403,7 +429,7 @@ export default {
       el.childNodes[0].classList.add('fadeinnum')
       el2.childNodes[0].classList.remove('fadeinnum')
       el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+
       if (this.sector > 6) {
         this.sector = 0
       }
@@ -411,6 +437,12 @@ export default {
       } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+             if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
+          } else if (this.temper == 'Hot') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
+          }
       this.now +=1
 
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
@@ -431,7 +463,6 @@ export default {
       el2.childNodes[1].childNodes[0].classList.remove("fade-in")
       el.childNodes[0].classList.add('fadeinnum')
       el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
       el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
       if (this.sector > 6) {
         this.sector = 0
@@ -442,6 +473,12 @@ export default {
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+          if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
+          } else if (this.temper == 'Hot') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
+          }
       this.now +=1
 
 
@@ -463,13 +500,19 @@ export default {
       el2.childNodes[1].childNodes[0].classList.remove("fade-in")
       el.childNodes[0].classList.add('fadeinnum')
       el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+
       el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
       if (this.sector > 6) {
         this.sector = 0
       }
         
       } else {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+          if (this.temper == 'Ice') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
+          } else if (this.temper == 'Hot') {
+            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
+          }
       this.now +=1
       
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
@@ -486,7 +529,6 @@ export default {
       el2.childNodes[1].childNodes[0].classList.remove("fade-in")
       el.childNodes[0].classList.add('fadeinnum')
       el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
       el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
    
       
