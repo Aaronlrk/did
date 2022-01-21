@@ -1,5002 +1,7002 @@
 [
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 1,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 2,
-		"coffee": "Cocoa"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 3,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 4,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 5,
-		"coffee": "Chocomilk"
+		"num": 4,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 6,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 7,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 8,
-		"coffee": "Chocomilk"
+		"num": 5,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 9,
-		"coffee": "Water"
+		"num": 6,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
-		"num": 10,
-		"coffee": "Water"
+		"name": "Aaron",
+		"num": 7,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 8,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 9,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 11,
-		"coffee": "Water"
-	},
-	{
-		"name": "Kate",
-		"num": 12,
-		"coffee": "Water"
-	},
-	{
-		"name": "Kate",
-		"num": 13,
-		"coffee": "Latte"
+		"num": 10,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
+		"num": 11,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 12,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 13,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
 		"num": 14,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 15,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 15,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
 		"num": 16,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 17,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 18,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 19,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 19,
-		"coffee": "Chocomilk"
+		"num": 20,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
-		"num": 20,
-		"coffee": "Chocomilk"
+		"name": "Sol",
+		"num": 21,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 21,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
 		"num": 22,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 23,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 24,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 25,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 26,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 27,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 28,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Aaron",
 		"num": 29,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 30,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 31,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 32,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 33,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 34,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 34,
-		"coffee": "Juice"
+		"num": 35,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 35,
-		"coffee": "Juice"
+		"num": 36,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
-		"num": 36,
-		"coffee": "Chocomilk"
+		"name": "Kate",
+		"num": 37,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 37,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
 		"num": 38,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 39,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 40,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 41,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 42,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 43,
-		"coffee": "Water"
+		"num": 40,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
+		"num": 41,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 42,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 43,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
 		"num": 44,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 45,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
 		"num": 46,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 47,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 48,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 49,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 50,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 50,
-		"coffee": "Americano"
+		"num": 51,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 52,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 51,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 52,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
 		"num": 53,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 54,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 55,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 56,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 57,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 58,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 59,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
+		"num": 59,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
 		"num": 60,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 61,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 62,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 63,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 64,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 65,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 66,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 67,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 68,
-		"coffee": "Water"
+		"num": 64,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 69,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 70,
-		"coffee": "Juice"
+		"num": 65,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
+		"num": 66,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 67,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 68,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 69,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 70,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
 		"num": 71,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 72,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 73,
-		"coffee": "Water"
-	},
-	{
-		"name": "Kate",
-		"num": 74,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 75,
-		"coffee": "Water"
-	},
-	{
-		"name": "Kate",
-		"num": 76,
-		"coffee": "Latte"
+		"num": 73,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
+		"num": 74,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 75,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 76,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
 		"num": 77,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 78,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 79,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 80,
-		"coffee": "Latte"
+		"num": 79,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
+		"num": 80,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 81,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 82,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 83,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 84,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 85,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 86,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 87,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 88,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
+		"num": 87,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 88,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 89,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 90,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 90,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
 		"num": 91,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 92,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 93,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 94,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
+		"num": 94,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
 		"num": 95,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 96,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 97,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 98,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Hyemin",
+		"name": "Kate",
 		"num": 99,
-		"coffee": "JJANG"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Ryunki",
+		"name": "Belle",
 		"num": 100,
-		"coffee": "JJANG"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Janghoon",
+		"name": "Belle",
 		"num": 101,
-		"coffee": "JJANG"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sangjin",
+		"name": "Lucy",
 		"num": 102,
-		"coffee": "JJANG"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Yoohyun",
+		"name": "Aaron",
 		"num": 103,
-		"coffee": "JJANG"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Changmin",
+		"name": "Lucy",
 		"num": 104,
-		"coffee": "JJANG"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "15",
+		"name": "Sol",
 		"num": 105,
-		"coffee": "Floor"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 106,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 107,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
-		"num": 108,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 109,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 110,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
-		"num": 111,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 112,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 113,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 114,
-		"coffee": "Water"
+		"num": 108,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
+		"num": 109,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 110,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 111,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 112,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 113,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 114,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 115,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 116,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 117,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 118,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 119,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 120,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 121,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 122,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 123,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 124,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 125,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
+		"num": 120,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 121,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 122,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 123,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 124,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 125,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
 		"num": 126,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 127,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Aaron",
 		"num": 128,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 129,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 130,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 131,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 132,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 133,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 134,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 135,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
-		"num": 135,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
 		"num": 136,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Aaron",
 		"num": 137,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 138,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 139,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 140,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 141,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
+		"num": 139,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 140,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 141,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 142,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 143,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 144,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 145,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 144,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 145,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
 		"num": 146,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 147,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 148,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 149,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 150,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 151,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 152,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 153,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
+		"num": 153,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 154,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 155,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 156,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 157,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 158,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 159,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
 		"num": 160,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 161,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 162,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 163,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 164,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 165,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 166,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 167,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 168,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 169,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
-		"num": 170,
-		"coffee": "Water"
+		"num": 161,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 162,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 163,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 164,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 171,
-		"coffee": "Juice"
+		"num": 165,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 172,
-		"coffee": "Water"
+		"num": 166,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 167,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 168,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 169,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 170,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 171,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 172,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
 		"num": 173,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 174,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 175,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 176,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 177,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
-		"num": 178,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 179,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 180,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 181,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 182,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 183,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 184,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
+		"num": 177,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 178,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 179,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 180,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 181,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 182,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 183,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 184,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
 		"num": 185,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 186,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
 		"num": 187,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 188,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 189,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 190,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 191,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 192,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 193,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 194,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 195,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 196,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 197,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
+		"num": 197,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
 		"num": 198,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 199,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 200,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
-		"num": 201,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
+		"num": 200,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 201,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
 		"num": 202,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 203,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 204,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Lucy",
 		"num": 205,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Lucy",
 		"num": 206,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 207,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 208,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 209,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 209,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
 		"num": 210,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 211,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 212,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 213,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 214,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 215,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 216,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 217,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 218,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 219,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 220,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 221,
-		"coffee": "Water"
+		"num": 213,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 222,
-		"coffee": "Juice"
+		"num": 214,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 215,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 216,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 217,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 218,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 219,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 220,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 221,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
+		"num": 222,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 223,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 224,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 225,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 226,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
-		"num": 227,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 228,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 229,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 230,
-		"coffee": "Americano"
+		"num": 225,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
-		"num": 231,
-		"coffee": "Chocomilk"
+		"name": "Belle",
+		"num": 226,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
+		"num": 227,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 228,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 229,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 230,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 231,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 232,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 233,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 234,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 235,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 236,
-		"coffee": "Juice"
+		"num": 234,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Aaron",
+		"num": 235,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 236,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 237,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 238,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 239,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 240,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 241,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 242,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 243,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 244,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 245,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 245,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
 		"num": 246,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 247,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 248,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 249,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 249,
-		"coffee": "Juice"
+		"num": 250,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 250,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
 		"num": 251,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 252,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 253,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 254,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 255,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 256,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 256,
-		"coffee": "Americano"
+		"num": 257,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
-		"num": 257,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
 		"num": 258,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 259,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 260,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 261,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 262,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 263,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 263,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
 		"num": 264,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 265,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 266,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 267,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 268,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 269,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 270,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 271,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 271,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
 		"num": 272,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 273,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 274,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 275,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 276,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 277,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 278,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 279,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 280,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 281,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 282,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 283,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 284,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 285,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 286,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 287,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 288,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 289,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 290,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 291,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 292,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 293,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 294,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 295,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 296,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 297,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 298,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 298,
-		"coffee": "Juice"
+		"num": 299,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
-		"num": 299,
-		"coffee": "Americano"
+		"name": "Kate",
+		"num": 300,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 300,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
 		"num": 301,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 302,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 303,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 303,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
 		"num": 304,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 305,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 306,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 307,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 308,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 309,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 310,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 311,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 312,
-		"coffee": "Americano"
+		"num": 309,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
-		"num": 313,
-		"coffee": "Americano"
+		"num": 310,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
-		"num": 314,
-		"coffee": "Water"
+		"name": "Aaron",
+		"num": 311,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 315,
-		"coffee": "Chocomilk"
+		"num": 312,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
+		"num": 313,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 314,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 315,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
 		"num": 316,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 317,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 318,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 319,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 320,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 321,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 322,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 323,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 324,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 325,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Aaron",
 		"num": 326,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 327,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 328,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 329,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 330,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
-		"num": 331,
-		"coffee": "Americano"
+		"num": 329,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
+		"num": 330,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 331,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
 		"num": 332,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 333,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 334,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 335,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
+		"num": 335,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
 		"num": 336,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 337,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 338,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 339,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 340,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 341,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 342,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 343,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 343,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
 		"num": 344,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 345,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 346,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
-		"num": 347,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
+		"num": 346,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 347,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
 		"num": 348,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 349,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 350,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 351,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
-		"num": 352,
-		"coffee": "Water"
+		"num": 351,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
+		"num": 352,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 353,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 354,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 355,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 356,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
+		"num": 356,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
 		"num": 357,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 358,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 359,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
+		"num": 358,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 359,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 360,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 361,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
-		"num": 362,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 363,
-		"coffee": "Chocomilk"
+		"num": 362,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
+		"num": 363,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
 		"num": 364,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 365,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 366,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 367,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 368,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 369,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
+		"num": 369,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 370,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 371,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 372,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 373,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 374,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 375,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 376,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 377,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 378,
-		"coffee": "Juice"
+		"num": 374,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
+		"num": 375,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 376,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 377,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 378,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
 		"num": 379,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 380,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 381,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 382,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 381,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 382,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
 		"num": 383,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Kate",
 		"num": 384,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 385,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 386,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 387,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 388,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 386,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 387,
-		"coffee": "Chocomilk"
+		"num": 389,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 388,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
-		"num": 389,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
 		"num": 390,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 391,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 392,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 393,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 394,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 395,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 396,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 397,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 398,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 399,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 400,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
 		"num": 401,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 402,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 403,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 404,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 403,
-		"coffee": "Chocomilk"
+		"num": 405,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 404,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 405,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
 		"num": 406,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Lucy",
 		"num": 407,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 408,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 409,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Kate",
 		"num": 410,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 411,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
+		"num": 411,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
 		"num": 412,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 413,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 414,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 415,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 416,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 417,
-		"coffee": "Juice"
+		"num": 413,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
+		"num": 414,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 415,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 416,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 417,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
 		"num": 418,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 419,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 420,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 421,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 422,
-		"coffee": "Water"
+		"num": 420,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
+		"num": 421,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 422,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
 		"num": 423,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 424,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 425,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 426,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 427,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 428,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 429,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 430,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 431,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 432,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 433,
-		"coffee": "Water"
+		"num": 426,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 434,
-		"coffee": "Americano"
+		"num": 427,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 428,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 429,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 430,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 431,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 432,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 433,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
+		"num": 434,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 435,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 436,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 437,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 438,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 439,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 440,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 441,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 442,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 443,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 444,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 445,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 446,
-		"coffee": "Chocomilk"
+		"num": 439,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 440,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 441,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 447,
-		"coffee": "Chocomilk"
+		"num": 442,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
-		"num": 448,
-		"coffee": "Juice"
+		"name": "Kate",
+		"num": 443,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
-		"num": 449,
-		"coffee": "Juice"
+		"name": "Aaron",
+		"num": 444,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 445,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
+		"num": 446,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 447,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 448,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 449,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 450,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 451,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 452,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 453,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 454,
-		"coffee": "Americano"
+		"num": 453,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 454,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
 		"num": 455,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 456,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 457,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 458,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 459,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 460,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 461,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 462,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 463,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 464,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
-		"num": 465,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 466,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 467,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 468,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 469,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 470,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 471,
-		"coffee": "Juice"
+		"num": 459,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 460,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 461,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 462,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 463,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 464,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 465,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 466,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 467,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
+		"num": 468,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 469,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 470,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 471,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 472,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 473,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 474,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 475,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
-		"num": 476,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 477,
-		"coffee": "Juice"
+		"num": 474,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Kate",
+		"num": 475,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 476,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 477,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 478,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 479,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 480,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 481,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 482,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 483,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 484,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 480,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 481,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 482,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 483,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 484,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 485,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 486,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 487,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 488,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 489,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 489,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
 		"num": 490,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 491,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 492,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 493,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 494,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 495,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
+		"num": 495,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 496,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 497,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 498,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 499,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 500,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 501,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 502,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 503,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 504,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 505,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 506,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 507,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 508,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 509,
-		"coffee": "Americano"
+		"num": 505,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 510,
-		"coffee": "Juice"
+		"num": 506,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 507,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
+		"num": 508,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 509,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 510,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 511,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 512,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Lucy",
 		"num": 513,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 514,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 515,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 516,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
 		"num": 517,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 518,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 519,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 520,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 521,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 522,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 523,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Aaron",
 		"num": 524,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 525,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 526,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 527,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 528,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 529,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 530,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 531,
-		"coffee": "Water"
+		"num": 528,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
+		"num": 529,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 530,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 531,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
 		"num": 532,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 533,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 534,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 534,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
 		"num": 535,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 536,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 537,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 538,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 539,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 537,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 538,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 539,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 540,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 541,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 542,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 543,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 544,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 545,
-		"coffee": "Americano"
+		"num": 543,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
+		"num": 544,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 545,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
 		"num": 546,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Lucy",
 		"num": 547,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 548,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 549,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 550,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 551,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 552,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 553,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 554,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
+		"num": 553,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 554,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
 		"num": 555,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 556,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 557,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 558,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 559,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 560,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 561,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 562,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 563,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
+		"num": 560,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 561,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 562,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 563,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 564,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 565,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Lucy",
 		"num": 566,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 567,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 568,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 569,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 570,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 569,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 570,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
 		"num": 571,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 572,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 573,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 574,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 575,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
+		"num": 574,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 575,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
 		"num": 576,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 577,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Aaron",
 		"num": 578,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 579,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 580,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 581,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 581,
-		"coffee": "Latte"
+		"num": 582,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 582,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
 		"num": 583,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 584,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 585,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 586,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 587,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
 		"num": 588,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 589,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 590,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 591,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
-		"num": 590,
-		"coffee": "Water"
-	},
-	{
-		"name": "Belle",
-		"num": 591,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
 		"num": 592,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
 		"num": 593,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 594,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Kate",
 		"num": 595,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 596,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 597,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 598,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 599,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 600,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 598,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 599,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 600,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
 		"num": 601,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 602,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
-		"num": 603,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 604,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 605,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
+		"num": 603,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 604,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 605,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 606,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 607,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 608,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 608,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
 		"num": 609,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 610,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 611,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 612,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 613,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 614,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 615,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
 		"num": 616,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 617,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 618,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 619,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 620,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 620,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
 		"num": 621,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 622,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 623,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 624,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 625,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 626,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
+		"num": 624,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 625,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 626,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
 		"num": 627,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 628,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 629,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Sol",
 		"num": 630,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 631,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 632,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 633,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Kate",
 		"num": 634,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 635,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 636,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 637,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 638,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 639,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 640,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 641,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Aaron",
 		"num": 642,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 643,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 644,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 643,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 644,
-		"coffee": "Water"
+		"num": 645,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 645,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
 		"num": 646,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 647,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 648,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 649,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
-		"num": 650,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 651,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 652,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 653,
-		"coffee": "Water"
+		"num": 648,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 649,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 654,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 655,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
-		"num": 656,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 657,
-		"coffee": "Americano"
+		"num": 650,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 658,
-		"coffee": "Water"
+		"num": 651,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 652,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
+		"num": 653,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 654,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 655,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 656,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 657,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 658,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
 		"num": 659,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 660,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 661,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 662,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 663,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 664,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 665,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 666,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 667,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 668,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 669,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 670,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 671,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 672,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 673,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 674,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 675,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 676,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 677,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 678,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
+		"num": 670,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 671,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 672,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 673,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 674,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 675,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 676,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 677,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 678,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
 		"num": 679,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 680,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 681,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 682,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 683,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
-		"num": 684,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 685,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 686,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 687,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 688,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 689,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 690,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 691,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 692,
-		"coffee": "Americano"
+		"num": 681,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
+		"num": 682,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 683,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 684,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 685,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 686,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 687,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 688,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 689,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 690,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 691,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 692,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 693,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 694,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 695,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 696,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 696,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
 		"num": 697,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 698,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 699,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
-		"num": 699,
-		"coffee": "Juice"
+		"num": 700,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 701,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 700,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 701,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
 		"num": 702,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 703,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 704,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 705,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 706,
-		"coffee": "Chocomilk"
+		"num": 703,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Sol",
+		"num": 704,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 705,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 706,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 707,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 708,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 709,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 710,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 711,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 712,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
-		"num": 713,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 714,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 715,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
-		"num": 716,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 717,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 718,
-		"coffee": "Latte"
+		"num": 712,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 713,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 714,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
+		"num": 715,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 716,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 717,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 718,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
 		"num": 719,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 720,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 721,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 722,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 723,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
+		"num": 722,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 723,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
 		"num": 724,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 725,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 726,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 727,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 728,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 729,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
-		"num": 730,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
+		"num": 729,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 730,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
 		"num": 731,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 732,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 733,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 734,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 735,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 736,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 737,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 738,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
+		"num": 738,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
 		"num": 739,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 740,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 741,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 742,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 743,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 744,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 745,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 746,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 747,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 748,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 749,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 750,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 751,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 752,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 753,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 754,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 753,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 754,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
 		"num": 755,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 756,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 757,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 758,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 759,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
-		"num": 757,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 758,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 759,
-		"coffee": "Chocomilk"
+		"num": 760,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 760,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
 		"num": 761,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 762,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 763,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
-		"num": 764,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
-		"num": 765,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 766,
-		"coffee": "Water"
+		"num": 763,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 764,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 765,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 766,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
 		"num": 767,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 768,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 769,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
-		"num": 770,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 771,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 769,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 770,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 771,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
 		"num": 772,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 773,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 774,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 775,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 775,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 776,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 777,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 778,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 779,
-		"coffee": "Water"
-	},
-	{
-		"name": "Kate",
-		"num": 780,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 781,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
+		"num": 780,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 781,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
 		"num": 782,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 783,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Sol",
 		"num": 784,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 785,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 786,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 787,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Lucy",
-		"num": 788,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
+		"num": 788,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 789,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 790,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 791,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 791,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Lucy",
 		"num": 792,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 793,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
-		"num": 794,
-		"coffee": "Chocomilk"
+		"num": 793,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
+		"num": 794,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 795,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 796,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Lucy",
 		"num": 797,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 798,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 799,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 800,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 801,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 802,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 803,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 804,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 805,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
-		"num": 806,
-		"coffee": "Americano"
+		"num": 805,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
+		"num": 806,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
 		"num": 807,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 808,
-		"coffee": "Juice"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 809,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 810,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 811,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 812,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 812,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
 		"num": 813,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 814,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 815,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 815,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
 		"num": 816,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 817,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 818,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 819,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
+		"num": 818,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 819,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
 		"num": 820,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 821,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 822,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 823,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 824,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Belle",
 		"num": 825,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 826,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 827,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 828,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 829,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 830,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 831,
-		"coffee": "Chocomilk"
+		"num": 826,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
-		"num": 832,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
-		"num": 833,
-		"coffee": "Chocomilk"
+		"name": "Lucy",
+		"num": 827,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 834,
-		"coffee": "Americano"
+		"num": 828,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
+		"num": 829,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 830,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 831,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 832,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 833,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 834,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 835,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 836,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 837,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 838,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
-		"num": 839,
-		"coffee": "Americano"
+		"num": 838,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
+		"num": 839,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
 		"num": 840,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 841,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 842,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 843,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 844,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 844,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
 		"num": 845,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 846,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Belle",
-		"num": 847,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
-		"num": 848,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 849,
-		"coffee": "Water"
-	},
-	{
-		"name": "Sol",
-		"num": 850,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
+		"num": 847,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 848,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 849,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 850,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
 		"num": 851,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 852,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 853,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 854,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 855,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
-		"num": 854,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 855,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
 		"num": 856,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Sol",
 		"num": 857,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 858,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 859,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 859,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Sol",
 		"num": 860,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 861,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Lucy",
 		"num": 862,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 863,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 864,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
-		"num": 865,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
-		"num": 866,
-		"coffee": "Water"
+		"num": 865,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Kate",
+		"num": 866,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 867,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 868,
-		"coffee": "Latte"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 869,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Lucy",
+		"num": 870,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 869,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 870,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
 		"num": 871,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Kate",
 		"num": 872,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
 		"num": 873,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 874,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 875,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 876,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 877,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 878,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 879,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 880,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 881,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 881,
-		"coffee": "Juice"
+		"num": 882,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 882,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
 		"num": 883,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 884,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Belle",
-		"num": 885,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
+		"num": 885,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
 		"num": 886,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 887,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 888,
-		"coffee": "Chocomilk"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 889,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 890,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 891,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
-		"num": 892,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 893,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 894,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
-		"num": 895,
-		"coffee": "Juice"
+		"num": 890,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
+		"num": 891,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 892,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 893,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 894,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 895,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 896,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 897,
-		"coffee": "Juice"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 898,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 899,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 900,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 899,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 900,
-		"coffee": "Water"
-	},
-	{
-		"name": "Aaron",
 		"num": 901,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 902,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 903,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Aaron",
-		"num": 904,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
-		"num": 905,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
-		"num": 906,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 907,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 908,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 909,
-		"coffee": "Chocomilk"
+		"num": 902,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
-		"num": 910,
-		"coffee": "Americano"
+		"num": 903,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
-		"num": 911,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 912,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 913,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 914,
-		"coffee": "Americano"
+		"name": "Sol",
+		"num": 904,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 915,
-		"coffee": "Juice"
+		"num": 905,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 906,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 907,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 908,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 909,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 910,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 911,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 912,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 913,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
+		"num": 914,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
+		"num": 915,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
 		"num": 916,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 917,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 918,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
-		"num": 918,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
 		"num": 919,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 920,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 921,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 922,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 923,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Sol",
-		"num": 924,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
+		"num": 922,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 923,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 924,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
 		"num": 925,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 926,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
 		"num": 927,
-		"coffee": "Water"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Kate",
 		"num": 928,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 929,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 930,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 931,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 932,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 933,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Aaron",
-		"num": 934,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Kate",
-		"num": 935,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 936,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
-		"num": 937,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Aaron",
-		"num": 938,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Sol",
+		"num": 931,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 932,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 933,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 934,
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 935,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
+		"num": 936,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 937,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
+		"num": 938,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
 		"num": 939,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 940,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 941,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 942,
-		"coffee": "Latte"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 943,
-		"coffee": "Water"
+		"num": 941,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
+		"num": 942,
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 943,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
 		"num": 944,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 945,
-		"coffee": "Juice"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 946,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Lucy",
 		"num": 947,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 948,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Sol",
-		"num": 949,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Lucy",
-		"num": 950,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
+		"num": 949,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Sol",
+		"num": 950,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Sol",
 		"num": 951,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Belle",
+		"num": 952,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 952,
-		"coffee": "Americano"
+		"num": 953,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
-		"num": 953,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Sol",
 		"num": 954,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 955,
-		"coffee": "Latte"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Sol",
+		"name": "Belle",
 		"num": 956,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 957,
-		"coffee": "Americano"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
 		"num": 958,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Lucy",
 		"num": 959,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 960,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
 		"num": 961,
-		"coffee": "Water"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 962,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 963,
-		"coffee": "Water"
-	},
-	{
-		"name": "Kate",
-		"num": 964,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Belle",
-		"num": 965,
-		"coffee": "Americano"
-	},
-	{
-		"name": "Kate",
-		"num": 966,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Aaron",
-		"num": 967,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
+		"num": 964,
+		"coffee": "Americano",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 965,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 966,
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 967,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Kate",
 		"num": 968,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 969,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Kate",
 		"num": 970,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 971,
-		"coffee": "Americano"
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
 		"num": 972,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 973,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 974,
-		"coffee": "Water"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Kate",
 		"num": 975,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Sol",
 		"num": 976,
-		"coffee": "Water"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 977,
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Belle",
+		"num": 978,
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
-		"num": 977,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 978,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Lucy",
 		"num": 979,
-		"coffee": "Chocomilk"
+		"coffee": "Americano",
+		"temper": "Ice",
+		"grade": "green"
 	},
 	{
 		"name": "Belle",
 		"num": 980,
-		"coffee": "Chocomilk"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 981,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Lucy",
+		"name": "Aaron",
 		"num": 982,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 983,
-		"coffee": "Americano"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Kate",
+		"name": "Aaron",
 		"num": 984,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "green"
+	},
+	{
+		"name": "Aaron",
+		"num": 985,
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
+	},
+	{
+		"name": "Aaron",
+		"num": 986,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Lucy",
-		"num": 985,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 986,
-		"coffee": "Juice"
-	},
-	{
-		"name": "Kate",
 		"num": 987,
-		"coffee": "Juice"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Aaron",
+		"name": "Belle",
 		"num": 988,
-		"coffee": "Latte"
-	},
-	{
-		"name": "Belle",
-		"num": 989,
-		"coffee": "Chocomilk"
+		"coffee": "Juice",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
 		"name": "Aaron",
-		"num": 990,
-		"coffee": "Chocomilk"
+		"num": 989,
+		"coffee": "Juice",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Belle",
+		"num": 990,
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
 		"num": 991,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
 		"name": "Kate",
 		"num": 992,
-		"coffee": "Water"
-	},
-	{
-		"name": "Lucy",
-		"num": 993,
-		"coffee": "Chocomilk"
-	},
-	{
-		"name": "Kate",
-		"num": 994,
-		"coffee": "Juice"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
 		"name": "Aaron",
+		"num": 993,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "gold"
+	},
+	{
+		"name": "Lucy",
+		"num": 994,
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
+	},
+	{
+		"name": "Kate",
 		"num": 995,
-		"coffee": "Americano"
+		"coffee": "Latte",
+		"temper": "Hot",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Lucy",
 		"num": 996,
-		"coffee": "Chocomilk"
+		"coffee": "Chocomilk",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Sol",
+		"name": "Lucy",
 		"num": 997,
-		"coffee": "Latte"
+		"coffee": "Water",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Kate",
+		"name": "Belle",
 		"num": 998,
-		"coffee": "Water"
+		"coffee": "Chocomilk",
+		"temper": "Hot",
+		"grade": "green"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 999,
-		"coffee": "Latte"
+		"coffee": "Latte",
+		"temper": "Ice",
+		"grade": "gold"
 	},
 	{
-		"name": "Belle",
+		"name": "Aaron",
 		"num": 1000,
-		"coffee": "Americano"
+		"coffee": "Water",
+		"temper": "Hot",
+		"grade": "green"
 	}
 ]

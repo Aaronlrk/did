@@ -9,10 +9,16 @@ name = ['Lucy', 'Aaron', 'Kate', 'Belle', 'Sol']
 
 coffee=['Americano', 'Latte', 'Chocomilk', 'Juice', 'Water']
 
+temper = ["Hot", "Ice"]
+
+grade = ["gold", "green"]
+
 for i in range(1,1001):
     temp = { "name" : random.choice(name),
              "num" : i,
-             "coffee" : random.choice(coffee)
+             "coffee" : random.choice(coffee),
+             "temper" : random.choice(temper),
+             "grade" : random.choice(grade),
         }
     order_list.append(temp)
 
