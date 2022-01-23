@@ -190,167 +190,146 @@ export default {
   }},
   methods: {
     updateorder: function () {
+
       if(this.sector == 0 ) {
         const el = document.getElementById(1)
         const el2 = document.getElementById(7)
-
-        el.childNodes[0].innerText = orderlist[this.now].num;
-        el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
-        el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
         this.temper = orderlist[this.now].temper
         this.grade = orderlist[this.now].grade
 
+        if (this.grade == 'gold') {
+          el.childNodes[0].classList.remove('gold');
+          el.childNodes[0].classList.add('gold')
+        }else {
+          el.childNodes[0].classList.remove('gold');
+        }
+
+        if (this.temper == 'Ice') {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+        el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice')
+        } else if (this.temper == 'Hot') {
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('hot','ice')
+        el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot')
+        }
+        el.childNodes[0].innerText = orderlist[this.now].num;
+        el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
+        el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
+
         if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-
-          el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+          el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+          el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+          el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+          el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+          el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
           
-          if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
+          el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
+          el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
+          this.sector = 1
+          this.now +=1
 
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      this.sector = 1
-      this.now +=1
-
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      } 
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[0].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
+          } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-        if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-  this.sector = 1
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      
-      } 
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
+        this.sector = 1
+        this.now +=1
+        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el.childNodes[1].childNodes[0].classList.add("fade-in")
+        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
+        el.childNodes[0].classList.add('fadeinnum')
+        el2.childNodes[0].classList.remove('fadeinnum')
+        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+        
+        } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
-        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-        if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+          
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
 
-      
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
+        
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
+        el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
         this.sector = 1
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
+        this.now +=1
+        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+        el.childNodes[1].childNodes[0].classList.add("fade-in")
+        el.childNodes[0].classList.add('fadeinnum')
 
-      } 
+        } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
-        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-        if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
+        
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
 
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
+        el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
 
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-  this.sector = 1
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+        this.sector = 1
+        this.now +=1
+        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el.childNodes[1].childNodes[0].classList.add("fade-in")
+        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
+        el.childNodes[0].classList.add('fadeinnum')
+        el2.childNodes[0].classList.remove('fadeinnum')
+        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
 
         
       } else {
-        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-        if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
-     
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      this.sector = 1
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+       
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+        this.sector = 1
+        this.now +=1
+        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el.childNodes[1].childNodes[0].classList.add("fade-in")
+        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
+        el.childNodes[0].classList.add('fadeinnum')
+        el2.childNodes[0].classList.remove('fadeinnum')
+        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
 
-      }
+        }
 
       } else {
         
@@ -358,161 +337,150 @@ export default {
        
       const el = document.getElementById(`${this.sector}`)
       const el2 = document.getElementById(`${this.sector-1}`)
+      this.temper = orderlist[this.now].temper
+      this.grade = orderlist[this.now].grade
+      if (this.grade == 'gold') {
+          el.childNodes[0].classList.remove('gold');
+          el.childNodes[0].classList.add('gold')
+        }else {
+          el.childNodes[0].classList.remove('gold');
+        }
+      if (this.temper == 'Ice') {
+      el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+      el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice')
+      } else if (this.temper == 'Hot') {
+      el.childNodes[1].childNodes[1].childNodes[1].classList.remove('hot','ice')
+      el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot')
+      }
       if (this.sector > 6) {
         this.sector = 0
       }
-        el.childNodes[0].innerText = orderlist[this.now].num;
-        el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
-        el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
+      el.childNodes[0].innerText = orderlist[this.now].num;
+      el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
+      el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
 
-        if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
+      if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
 
-          el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-          if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
-      this.now +=1
+        this.now +=1
 
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      if (this.sector > 6) {
-        this.sector = 0
-      }
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+        
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
+        el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
+        el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
+        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el.childNodes[1].childNodes[0].classList.add("fade-in")
+        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
+        el.childNodes[0].classList.add('fadeinnum')
+        el2.childNodes[0].classList.remove('fadeinnum')
+        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+        if (this.sector > 6) {
+          this.sector = 0
+        }
 
-      } 
+        } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-          if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
-      this.now +=1
+       
+        this.now +=1
 
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
 
-      
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+        
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
+        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el.childNodes[1].childNodes[0].classList.add("fade-in")
+        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
+        el.childNodes[0].classList.add('fadeinnum')
+        el2.childNodes[0].classList.remove('fadeinnum')
+        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
 
-      if (this.sector > 6) {
-        this.sector = 0
-      }
+        if (this.sector > 6) {
+          this.sector = 0
+        }
 
-      } 
+        } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
-        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-             if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
-      this.now +=1
+        
+        this.now +=1
 
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
 
-      
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-      if (this.sector > 6) {
-        this.sector = 0
-      }
+        
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
+        el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
+        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el.childNodes[1].childNodes[0].classList.add("fade-in")
+        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
+        el.childNodes[0].classList.add('fadeinnum')
+        el2.childNodes[0].classList.remove('fadeinnum')
+        el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+        if (this.sector > 6) {
+          this.sector = 0
+        }
 
-      } 
+        } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
-        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-          if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
-      this.now +=1
-
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-      if (this.sector > 6) {
-        this.sector = 0
-      }
         
+        this.now +=1
+
+
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
+        el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
+
+        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el.childNodes[1].childNodes[0].classList.add("fade-in")
+        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
+        el.childNodes[0].classList.add('fadeinnum')
+        el2.childNodes[0].classList.remove('fadeinnum')
+
+        el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+        if (this.sector > 6) {
+          this.sector = 0
+        }
+          
       } else {
-        el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
-          if (this.temper == 'Ice') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice','fade-in')
-          } else if (this.temper == 'Hot') {
-            el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot','fade-in')
-          }
+        
       this.now +=1
       
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
@@ -562,8 +530,80 @@ export default {
       }
     },
 
-    update1: function () {
-      const el = document.getElementById(1)
+  update1: function () {
+    const el = document.getElementById(1)
+    this.update(el);
+  },
+  update2: function () {
+    const el = document.getElementById(2)
+    this.update(el);
+  },
+  update3: function () {
+    const el = document.getElementById(3)
+    this.update(el);
+  },
+  update4: function () {
+    const el = document.getElementById(4)
+    this.update(el);
+  },
+  update5: function () {
+    const el = document.getElementById(5)
+    this.update(el);
+  },
+  update6: function () {
+    const el = document.getElementById(6)
+    this.update(el);
+  },
+  update7: function () {
+    const el = document.getElementById(7)
+    this.update(el);
+  },
+  
+  delete1: function () {
+    const el = document.getElementById(1)
+    this.delete(el);
+  },
+  delete2: function () {
+    const el = document.getElementById(2)
+    this.delete(el);
+  },
+  delete7: function () {
+    const el = document.getElementById(7)
+    this.delete(el);
+  },
+  delete3: function () {
+    const el = document.getElementById(3)
+    this.delete(el);
+  },
+  delete4: function () {
+    const el = document.getElementById(4)
+    this.delete(el);
+  },
+  delete5: function () {
+    const el = document.getElementById(5)
+    this.delete(el);
+  },
+  delete6: function () {
+    const el = document.getElementById(6)
+    this.delete(el);
+  },
+
+    update: function (el) {
+      this.temper = orderlist[this.now].temper
+      this.grade = orderlist[this.now].grade
+      if (this.grade == 'gold') {
+          el.childNodes[0].classList.remove('gold');
+          el.childNodes[0].classList.add('gold')
+        } else {
+          el.childNodes[0].classList.remove('gold');
+        }
+      if (this.temper == 'Ice') {
+      el.childNodes[1].childNodes[1].childNodes[1].classList.remove('ice','hot')
+      el.childNodes[1].childNodes[1].childNodes[1].classList.add('ice')
+      } else if (this.temper == 'Hot') {
+      el.childNodes[1].childNodes[1].childNodes[1].classList.remove('hot','ice')
+      el.childNodes[1].childNodes[1].childNodes[1].classList.add('hot')
+      }
       el.childNodes[0].innerText = orderlist[this.now].num;
       el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
       el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
@@ -573,10 +613,14 @@ export default {
       el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
       el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+      
+
       el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
       el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
       el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
       el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+
+      
       
       el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
       el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
@@ -674,8 +718,7 @@ export default {
       }
       
     },
-    delete1: function() {
-      const el = document.getElementById(1)
+    delete: function(el) {
       el.childNodes[0].innerText = "";
       el.childNodes[1].childNodes[1].childNodes[0].innerText = "";
       el.childNodes[1].childNodes[1].childNodes[1].innerText = "";
@@ -694,797 +737,6 @@ export default {
       el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
     },
 
-    update2: function () {
-      const el = document.getElementById(2)
-      
-      el.childNodes[0].innerText = orderlist[this.now].num;
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
-
-      if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      this.sector = 2
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-      this.sector = 2
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-      this.sector = 2
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-      this.sector = 2
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-        
-      } else {
-      
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      this.sector = 2
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      }
-    },
-    delete2: function() {
-      const el = document.getElementById(2)
-      el.childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = "";
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-    },
-
-    update3: function () {
-      const el = document.getElementById(3)
-      
-      el.childNodes[0].innerText = orderlist[this.now].num;
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
-
-      if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      this.sector = 3
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-      this.sector = 3
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-      this.sector = 3
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-      this.sector = 3
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-        
-      } else {
-      
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      this.sector = 3
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      }
-    },
-    delete3: function() {
-      const el = document.getElementById(3)
-      el.childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = "";
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-    },
-
-    update4: function () {
-      const el = document.getElementById(4)
-      
-      el.childNodes[0].innerText = orderlist[this.now].num;
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
-
-      if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      this.sector = 4
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-      this.sector = 4
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-      this.sector = 4
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-      this.sector = 4
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-        
-      } else {
-      
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      this.sector = 4
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      }
-    },
-    delete4: function() {
-      const el = document.getElementById(4)
-      el.childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = "";
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-    },
-
-    update5: function () {
-      const el = document.getElementById(5)
-      
-      el.childNodes[0].innerText = orderlist[this.now].num;
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
-
-      if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      this.sector = 5
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-      this.sector = 5
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-      this.sector = 5
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-      this.sector = 5
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-        
-      } else {
-      
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      this.sector = 5
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      }
-    },
-    delete5: function() {
-      const el = document.getElementById(5)
-      el.childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = "";
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-    },
-
-    update6: function () {
-      const el = document.getElementById(6)
-      
-     el.childNodes[0].innerText = orderlist[this.now].num;
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
-
-      if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      this.sector = 6
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-      this.sector = 6
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-      this.sector = 6
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-      this.sector = 6
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-        
-      } else {
-      
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      this.sector = 6
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      }
-    },
-    delete6: function() {
-      const el = document.getElementById(6)
-      el.childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = "";
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-    },
-
-    update7: function () {
-      const el = document.getElementById(7)
-      
-      el.childNodes[0].innerText = orderlist[this.now].num;
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = orderlist[this.now].name;
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
-
-      if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      this.sector = 7
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-      this.sector = 7
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-      this.sector = 7
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      } 
-
-      else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
-      || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-      el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-      this.sector = 7
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-        
-      } else {
-      
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      this.sector = 7
-      this.now +=1
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
-      }
-    },
-    delete7: function() {
-      const el = document.getElementById(7)
-      el.childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[0].innerText = "";
-      el.childNodes[1].childNodes[1].childNodes[1].innerText = "";
-
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      
-      el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[0].classList.remove('fadeinnum')
-      el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-    },
 
   }
 }
@@ -1545,13 +797,19 @@ export default {
 }
 
 .ice {
-  background: linear-gradient(to bottom, rgb(112, 160, 231), blue);
+  background: linear-gradient(to  right bottom , rgb(169, 201, 248),rgb(125, 173, 245), blue);
     color: transparent;
     -webkit-background-clip: text;
 }
 
+.gold {
+  background: linear-gradient(to right bottom, gold, rgb(255, 255, 255));
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 .hot {
-   background: linear-gradient(to bottom, rgb(243, 43, 43), rgb(143, 0, 0));
+   background: linear-gradient(to right bottom , rgb(255, 149, 149) ,rgb(255, 81, 81), rgb(143, 0, 0));
     color: transparent;
     -webkit-background-clip: text;
 }
