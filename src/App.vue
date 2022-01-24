@@ -1,12 +1,36 @@
 <template>
   <div class="main">
     <!-- 전체 가로 -->
-    <div class="container row p-0">
+    <div class="container row p-0"  style="background-image : url(../assets/1.jpg)">
     <!-- 각각의 id는 sector를 의미한다 -->
+   <div id="carouselExampleInterval" style="position:absolute" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <img src="../assets/1.jpg" style=" width:1140px;height:80px" class="d-block " alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="../assets/2.jpg" style=" width:1140px;height:80px" class="d-block" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="../assets/3.jpg" style=" width:1140px;height:80px" class="d-block " alt="...">
+        </div>
+      </div>
+        <button class="carousel-control-prev" style="visibility:hidden" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" style="visibility:hidden" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- <div class="img_box">
+      <img name="back" src="../assets/1.jpg" style="position:absolute; width:1140px;height:80px" alt="배경이미지">
+    </div> -->
       <div id=1 class="col temp d-flex">
         <div id="ordernums" class="ordnums col-2 "></div>
         <div class="mt-1 text-center col d-flex">
-          <div class="col-5">
+          <div class="col-3">
           <img src="../assets/reserve.png" style="visibility:hidden; height:50%" alt="">
           <img src="../assets/coffee.png" style="visibility:hidden; height:40%" alt="">
           <img src="../assets/juice.png" style="visibility:hidden; height:40%; transform:translatey(-90%)" alt="">
@@ -23,7 +47,7 @@
       <div id=2 class="col temp d-flex">
         <div id="ordernums" class="ordnums col-2 "></div>
         <div class="mt-1 text-center col d-flex">
-          <div class="col-5">
+          <div class="col-3">
           <img src="../assets/reserve.png" style="visibility:hidden; height:50%" alt="">
           <img src="../assets/coffee.png" style="visibility:hidden; height:40%" alt="">
           <img src="../assets/juice.png" style="visibility:hidden; height:40%; transform:translatey(-90%)" alt="">
@@ -40,7 +64,7 @@
       <div id="3" class="col temp d-flex">
         <div id="ordernums" class="ordnums col-2 "></div>
         <div class="mt-1 text-center col d-flex">
-          <div class="col-5">
+          <div class="col-3">
           <img src="../assets/reserve.png" style="visibility:hidden; height:50%" alt="">
           <img src="../assets/coffee.png" style="visibility:hidden; height:40%" alt="">
           <img src="../assets/juice.png" style="visibility:hidden; height:40%; transform:translatey(-90%)" alt="">
@@ -57,7 +81,7 @@
       <div id="4" class="col temp d-flex">
        <div id="ordernums" class="ordnums col-2 "></div>
         <div class="mt-1 text-center col d-flex">
-          <div class="col-5">
+          <div class="col-3">
           <img src="../assets/reserve.png" style="visibility:hidden; height:50%" alt="">
           <img src="../assets/coffee.png" style="visibility:hidden; height:40%" alt="">
           <img src="../assets/juice.png" style="visibility:hidden; height:40%; transform:translatey(-90%)" alt="">
@@ -74,7 +98,7 @@
       <div id="5" class="col temp d-flex">
         <div id="ordernums" class="ordnums col-2 "></div>
         <div class="mt-1 text-center col d-flex">
-          <div class="col-5">
+          <div class="col-3">
           <img src="../assets/reserve.png" style="visibility:hidden; height:50%" alt="">
           <img src="../assets/coffee.png" style="visibility:hidden; height:40%" alt="">
           <img src="../assets/juice.png" style="visibility:hidden; height:40%; transform:translatey(-90%)" alt="">
@@ -91,7 +115,7 @@
       <div id="6" class="col temp d-flex">
         <div id="ordernums" class="ordnums col-2 "></div>
         <div class="mt-1 text-center col d-flex">
-          <div class="col-5">
+          <div class="col-3">
           <img src="../assets/reserve.png" style="visibility:hidden; height:50%" alt="">
           <img src="../assets/coffee.png" style="visibility:hidden; height:40%" alt="">
           <img src="../assets/juice.png" style="visibility:hidden; height:40%; transform:translatey(-90%)" alt="">
@@ -108,7 +132,7 @@
       <div id="7" class="col temp d-flex">
         <div id="ordernums" class="ordnums col-2 "></div>
         <div class="mt-1 text-center col d-flex">
-          <div class="col-5">
+          <div class="col-3">
           <img src="../assets/reserve.png" style="visibility:hidden; height:50%" alt="">
           <img src="../assets/coffee.png" style="visibility:hidden; height:40%" alt="">
           <img src="../assets/juice.png" style="visibility:hidden; height:40%; transform:translatey(-90%)" alt="">
@@ -190,7 +214,7 @@ export default {
   }},
   methods: {
     updateorder: function () {
-
+      document.getElementById('carouselExampleInterval').style.visibility = "hidden";
       if(this.sector == 0 ) {
         const el = document.getElementById(1)
         const el2 = document.getElementById(7)
@@ -525,10 +549,14 @@ export default {
       el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
       el.childNodes[0].classList.remove('fadeinnum')
       el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+      if (el.textContent == "") {
+        document.getElementById('carouselExampleInterval').style.visibility="visible"
+      }
 
       this.sector = 0
       }
     },
+
 
   update1: function () {
     const el = document.getElementById(1)
@@ -562,33 +590,119 @@ export default {
   delete1: function () {
     const el = document.getElementById(1)
     this.delete(el);
+    var i
+       for ( i=1; i<8; i++) {
+         const el = document.getElementById(i)
+          if (el.textContent != "") {
+            break
+          }
+      }
+      console.log(i)
+      if (i ==8) {
+            document.getElementById('carouselExampleInterval').style.visibility="visible"
+
+      }
   },
   delete2: function () {
     const el = document.getElementById(2)
     this.delete(el);
+     var i
+       for ( i=1; i<8; i++) {
+         const el = document.getElementById(i)
+          if (el.textContent != "") {
+            break
+          }
+      }
+      console.log(i)
+      if (i ==8) {
+            document.getElementById('carouselExampleInterval').style.visibility="visible"
+
+      }
   },
   delete7: function () {
     const el = document.getElementById(7)
     this.delete(el);
+       var i
+       for ( i=1; i<8; i++) {
+         const el = document.getElementById(i)
+          if (el.textContent != "") {
+            break
+          }
+      }
+      console.log(i)
+      if (i ==8) {
+            document.getElementById('carouselExampleInterval').style.visibility="visible"
+
+      }
   },
   delete3: function () {
     const el = document.getElementById(3)
     this.delete(el);
+       var i
+       for ( i=1; i<8; i++) {
+         const el = document.getElementById(i)
+          if (el.textContent != "") {
+            break
+          }
+      }
+      console.log(i)
+      if (i ==8) {
+            document.getElementById('carouselExampleInterval').style.visibility="visible"
+
+      }
   },
   delete4: function () {
     const el = document.getElementById(4)
     this.delete(el);
+       var i
+       for ( i=1; i<8; i++) {
+         const el = document.getElementById(i)
+          if (el.textContent != "") {
+            break
+          }
+      }
+      console.log(i)
+      if (i ==8) {
+            document.getElementById('carouselExampleInterval').style.visibility="visible"
+
+      }
   },
   delete5: function () {
     const el = document.getElementById(5)
     this.delete(el);
+       var i
+       for ( i=1; i<8; i++) {
+         const el = document.getElementById(i)
+          if (el.textContent != "") {
+            break
+          }
+      }
+      console.log(i)
+      if (i ==8) {
+            document.getElementById('carouselExampleInterval').style.visibility="visible"
+
+      }
   },
   delete6: function () {
     const el = document.getElementById(6)
     this.delete(el);
+       var i
+       for ( i=1; i<8; i++) {
+         const el = document.getElementById(i)
+          if (el.textContent != "") {
+            break
+          }
+      }
+      console.log(i)
+      if (i ==8) {
+            document.getElementById('carouselExampleInterval').style.visibility="visible"
+
+      }
   },
 
     update: function (el) {
+        document.getElementById('carouselExampleInterval').style.visibility="hidden"
+
       this.temper = orderlist[this.now].temper
       this.grade = orderlist[this.now].grade
       if (this.grade == 'gold') {
@@ -719,6 +833,7 @@ export default {
       
     },
     delete: function(el) {
+
       el.childNodes[0].innerText = "";
       el.childNodes[1].childNodes[1].childNodes[0].innerText = "";
       el.childNodes[1].childNodes[1].childNodes[1].innerText = "";
@@ -735,9 +850,16 @@ export default {
       el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
       el.childNodes[0].classList.remove('fadeinnum')
       el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+       
     },
 
 
+  },
+  computed: {
+    // advertise: function() {
+      // const el = 
+      // if ()
+    // }
   }
 }
 </script>
