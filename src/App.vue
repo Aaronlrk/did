@@ -701,7 +701,7 @@ export default {
   },
 
     update: function (el) {
-        document.getElementById('carouselExampleInterval').style.visibility="hidden"
+      document.getElementById('carouselExampleInterval').style.visibility="hidden"
 
       this.temper = orderlist[this.now].temper
       this.grade = orderlist[this.now].grade
@@ -740,7 +740,7 @@ export default {
       el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
       el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-      this.sector = 1
+      this.sector = 0
       this.now +=1
       el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
       el.childNodes[1].childNodes[0].classList.add("fade-in")
@@ -761,7 +761,7 @@ export default {
       
       el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
       el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-      this.sector = 1
+      this.sector = 0
       this.now +=1
       el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
       el.childNodes[1].childNodes[0].classList.add("fade-in")
@@ -782,7 +782,7 @@ export default {
       
       el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
       el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-      this.sector = 1
+      this.sector = 0
       this.now +=1
       el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
       el.childNodes[1].childNodes[0].classList.add("fade-in")
@@ -806,7 +806,7 @@ export default {
       el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
       el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
 
-      this.sector = 1
+      this.sector = 0
       this.now +=1
       el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
       el.childNodes[1].childNodes[0].classList.add("fade-in")
@@ -823,7 +823,7 @@ export default {
       el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
       el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
       el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      this.sector = 1
+      this.sector = 0
       this.now +=1
       el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
       el.childNodes[1].childNodes[0].classList.add("fade-in")
