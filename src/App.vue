@@ -220,7 +220,23 @@ export default {
         const el2 = document.getElementById(7)
         this.temper = orderlist[this.now].temper
         this.grade = orderlist[this.now].grade
+        el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+        el.childNodes[0].classList.remove('fadeinnum')
+        el2.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+        el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+        el2.childNodes[0].classList.remove('fadeinnum')
+          // 이미지 그림 초기화
 
+        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+        
         if (this.grade == 'gold') {
           el.childNodes[0].classList.remove('gold');
           el.childNodes[0].classList.add('gold')
@@ -240,15 +256,9 @@ export default {
         el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
 
         if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-          el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-          el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-          el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-          el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-          el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-          el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-          el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-          el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
           
+          
+          // 해당 이미지만 새로 출력
           el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
           el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
           el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
@@ -256,53 +266,43 @@ export default {
           this.sector = 1
           this.now +=1
 
+          
           el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-          el.childNodes[1].childNodes[0].classList.add("fade-in")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
           el.childNodes[0].classList.add('fadeinnum')
           } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Water') {
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-        this.sector = 1
-        this.now +=1
-        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-        el.childNodes[1].childNodes[0].classList.add("fade-in")
-        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-        el.childNodes[0].classList.add('fadeinnum')
-        el2.childNodes[0].classList.remove('fadeinnum')
-        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+       
+          
+          // 해당 이미지만 새로 출력
+
+          el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[3].classList.add('fade-in')
+          this.sector = 1
+          this.now +=1
+
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
         
         } 
 
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
           
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+      
+          // 해당 이미지만 새로 출력
 
-        
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-        el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-        this.sector = 1
-        this.now +=1
-        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-        el.childNodes[1].childNodes[0].classList.add("fade-in")
-        el.childNodes[0].classList.add('fadeinnum')
+          el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[2].classList.add('fade-in')
+          this.sector = 1
+          this.now +=1
+
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
 
         } 
 
@@ -310,49 +310,34 @@ export default {
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Latte'
       || el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Americano') {
         
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+    
+          
+          
+          // 해당 이미지만 새로 출력
+          el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
+          this.sector = 1
+          this.now +=1
 
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-        el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-        this.sector = 1
-        this.now +=1
-        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-        el.childNodes[1].childNodes[0].classList.add("fade-in")
-        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-        el.childNodes[0].classList.add('fadeinnum')
-        el2.childNodes[0].classList.remove('fadeinnum')
-        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
 
         
       } else {
        
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-        this.sector = 1
-        this.now +=1
-        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-        el.childNodes[1].childNodes[0].classList.add("fade-in")
-        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-        el.childNodes[0].classList.add('fadeinnum')
-        el2.childNodes[0].classList.remove('fadeinnum')
-        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+  
+          
+          // 해당 이미지만 새로 출력
 
+          this.sector = 1
+          this.now +=1
+
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
         }
 
       } else {
@@ -363,6 +348,21 @@ export default {
       const el2 = document.getElementById(`${this.sector-1}`)
       this.temper = orderlist[this.now].temper
       this.grade = orderlist[this.now].grade
+      el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+      el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+      el.childNodes[0].classList.remove('fadeinnum')
+      el2.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+      el2.childNodes[0].classList.remove('fadeinnum')
+      // 이미지 그림 초기화
+          el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+          el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+          el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+          el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+          el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
       if (this.grade == 'gold') {
           el.childNodes[0].classList.remove('gold');
           el.childNodes[0].classList.add('gold')
@@ -387,26 +387,17 @@ export default {
 
         this.now +=1
 
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-        
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
-        el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-        el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-        el.childNodes[1].childNodes[0].classList.add("fade-in")
-        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-        el.childNodes[0].classList.add('fadeinnum')
-        el2.childNodes[0].classList.remove('fadeinnum')
-        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          // 해당 이미지만 새로 출력
+          el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[0].classList.add('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
+          this.now +=1
+
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
         if (this.sector > 6) {
           this.sector = 0
         }
@@ -417,25 +408,17 @@ export default {
        
         this.now +=1
 
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+          
+          // 해당 이미지만 새로 출력
 
-        
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.add("fade-in");
-        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-        el.childNodes[1].childNodes[0].classList.add("fade-in")
-        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-        el.childNodes[0].classList.add('fadeinnum')
-        el2.childNodes[0].classList.remove('fadeinnum')
-        el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[3].classList.add('fade-in')
+          this.now +=1
+
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
 
         if (this.sector > 6) {
           this.sector = 0
@@ -446,26 +429,17 @@ export default {
       else if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Juice') {
         
         this.now +=1
+          
+          // 해당 이미지만 새로 출력
 
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[2].classList.add('fade-in')
+          this.now +=1
 
-        
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'visible'
-        el.childNodes[1].childNodes[0].childNodes[2].classList.add("fade-in");
-        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-        el.childNodes[1].childNodes[0].classList.add("fade-in")
-        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-        el.childNodes[0].classList.add('fadeinnum')
-        el2.childNodes[0].classList.remove('fadeinnum')
-        el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
         if (this.sector > 6) {
           this.sector = 0
         }
@@ -478,27 +452,16 @@ export default {
         
         this.now +=1
 
+          // 해당 이미지만 새로 출력
 
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-        el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-        el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
+          this.now +=1
 
-        el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
-        el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
-
-        el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-        el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-        el.childNodes[1].childNodes[0].classList.add("fade-in")
-        el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-        el.childNodes[0].classList.add('fadeinnum')
-        el2.childNodes[0].classList.remove('fadeinnum')
-
-        el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
         if (this.sector > 6) {
           this.sector = 0
         }
@@ -506,23 +469,18 @@ export default {
       } else {
         
       this.now +=1
-      
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-      el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
-      el2.el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
-      el.childNodes[1].childNodes[0].classList.add("fade-in")
-      el2.childNodes[1].childNodes[0].classList.remove("fade-in")
-      el.childNodes[0].classList.add('fadeinnum')
-      el2.childNodes[0].classList.remove('fadeinnum')
-      el2.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
-   
+          
+          // 해당 이미지만 새로 출력
+          el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[0].classList.add('fade-in')
+          el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'visible'
+          el.childNodes[1].childNodes[0].childNodes[1].classList.add('fade-in')
+          this.now +=1
+
+          
+          el.childNodes[1].childNodes[1].childNodes[0].classList.add("slidein")
+          el.childNodes[1].childNodes[1].childNodes[1].classList.add("fade-in")
+          el.childNodes[0].classList.add('fadeinnum')
       
       }
       }
@@ -705,6 +663,20 @@ export default {
 
       this.temper = orderlist[this.now].temper
       this.grade = orderlist[this.now].grade
+      el.childNodes[1].childNodes[1].childNodes[0].classList.remove("slidein")
+      el.childNodes[1].childNodes[1].childNodes[1].classList.remove("fade-in")
+      el.childNodes[0].classList.remove('fadeinnum')
+
+        // 이미지 그림 초기화
+
+      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
+      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
+      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
+      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
+      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
+      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
+      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
+      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
       if (this.grade == 'gold') {
           el.childNodes[0].classList.remove('gold');
           el.childNodes[0].classList.add('gold')
@@ -723,18 +695,6 @@ export default {
       el.childNodes[1].childNodes[1].childNodes[1].innerText = orderlist[this.now].coffee;
 
       if (el.childNodes[1].childNodes[1].childNodes[1].innerText == 'Chocomilk') {
-      el.childNodes[1].childNodes[0].childNodes[1].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[2].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'hidden'
-      el.childNodes[1].childNodes[0].childNodes[3].style.visibility = 'hidden'
-      
-
-      el.childNodes[1].childNodes[0].childNodes[3].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[1].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[2].classList.remove('fade-in')
-      el.childNodes[1].childNodes[0].childNodes[0].classList.remove('fade-in')
-
-      
       
       el.childNodes[1].childNodes[0].childNodes[0].style.visibility = 'visible'
       el.childNodes[1].childNodes[0].childNodes[0].classList.add("fade-in");
