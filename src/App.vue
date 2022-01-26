@@ -6,13 +6,13 @@
    <div id="carouselExampleInterval" style="position:absolute" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="4000">
-          <img src="../assets/1.jpg" style=" width:1140px;height:80px" class="d-block " alt="...">
+          <img src="../assets/1.jpg" style=" width:1120px;height:80px" class="d-block " alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="4000">
-          <img src="../assets/2.jpg" style=" width:1140px;height:80px" class="d-block" alt="...">
+          <img src="../assets/2.jpg" style=" width:1120px;height:80px" class="d-block" alt="...">
         </div>
         <div class="carousel-item" data-bs-interval="4000">
-          <img src="../assets/3.jpg" style=" width:1140px;height:80px" class="d-block " alt="...">
+          <img src="../assets/3.jpg" style=" width:1120px;height:80px" class="d-block " alt="...">
         </div>
       </div>
         <button class="carousel-control-prev" style="visibility:hidden" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
